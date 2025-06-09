@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+#head {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url(/images/header-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  text-align: center;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+}
+#logo img {
+  width: 200px;
+  height: 50px;
+}
+/* Main container for language and login */
+#lang-and-login {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Language selector styling */
+#language-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+}
+
+#language {
+  background: transparent;
+
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid red;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+#language:hover {
+  border-color: transparent;
+}
+
+/* Login button styling */
+#login a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: red;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+#login a:hover {
+  background: rgb(141, 4, 4);
+}
+#script-and-membership {
+  gap: 20px;
+  margin-top: 150px;
+}
+#script {
+  color: white;
+  font-size: 30px;
+}
+#membership {
+    color: white;
+  gap: 20px;
+  margin-top: 30px;
+}
+#email-input input {
+    background: transparent;
+    color: white;
+  padding: 10px;
+  height: 60px;
+  width: 400px;
+  border: white solid 1px;
+  font-size: 16px;
+}
+#email-input button {
+    height: 60px;
+  width: 200px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#feature-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 400px;
+    margin-top: 2px;;
+    background-color: rgb(0, 0, 0);
+    }
+#feature-1-text{
+    color: white;
+    text-align: left;
+}
+#feature-1 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#feature-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 400px;
+    margin-top: 2px;
+    background-color: rgb(0, 0, 0);
+}
+#feature-2-text {
+    color: white;
+    text-align: left;
+}
+#feature-2 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#feature-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 400px;
+    margin-top: 2px;
+    background-color: rgb(0, 0, 0);
+}
+#feature-3-text {
+    color: white;
+    text-align: left;
+}
+#feature-3 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}   
+#feature-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 400px;
+    margin-top: 2px;
+    background-color: rgb(0, 0, 0);
+}
+#feature-4-text {
+    color: white;
+    text-align: left;
+}
+#feature-4 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#faq {
+    color: white;
+  background: black;
+  padding: 60px 20px;
+  text-align: center;
+    margin-bottom: 5px;  
+}
+
+#faq h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  background: black;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 800px;
+}
+
+.faq-item h2 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.5;
+}
+#footer {
+    padding: 5px 20px;
+    position: relative;
+  background: black;
+  color: white;
+
+  text-align: center;
+  position: relative;
+
+  width: 100%;
+}
+#footer-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+#footer-links ul {
+  list-style: none;
+}
+#footer-links li {
+  margin: 30px 0;
+}
+#footer-links a {
+  color: rgba(255, 255, 255, 0.264);
+  text-decoration: none;
+  cursor: pointer;
+}
+#footer-links a:hover {
+  color: white;
+}
+#footer-text {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.264);
+}

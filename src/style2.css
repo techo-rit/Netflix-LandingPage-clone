@@ -1,0 +1,117 @@
+body {
+  background: #050000;
+  color: #fff;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.login-container {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  padding: 20px 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.login-form {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  padding: 60px;
+  width: 100%;
+  max-width: 450px;
+  margin: 40px auto;
+}
+
+.login-form h1 {
+  font-size: 2rem;
+  margin-bottom: 28px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 16px 20px;
+  font-size: 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.form-group label {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  color: #8c8c8c;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.form-group input:focus ~ label,
+.form-group input:not(:placeholder-shown) ~ label {
+  top: 4px;
+  font-size: 11px;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 16px;
+  background: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signin-btn:hover {
+  background: #c11119;
+}
+
+.remember-help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.remember-me input {
+  margin-right: 5px;
+}
+
+.signup-prompt {
+  margin-top: 40px;
+  color: #737373;
+}
+
+.signup-prompt a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
